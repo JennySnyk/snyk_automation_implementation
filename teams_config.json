@@ -1,0 +1,124 @@
+{
+  "teams": [
+    {
+      "team_name": "Frontend Development Team",
+      "repositories": [
+        "company/react-dashboard",
+        "company/component-library",
+        "company/mobile-app"
+      ],
+      "members": [
+        "frontend-lead@company.com",
+        "react-dev@company.com",
+        "mobile-dev@company.com"
+      ],
+      "policies": [
+        "high-severity-policy",
+        "license-policy",
+        "frontend-security-policy"
+      ],
+      "testing_types": [
+        "sast",
+        "sca",
+        "iac"
+      ]
+    },
+    {
+      "team_name": "Backend Services Team",
+      "repositories": [
+        "company/api-gateway",
+        "company/user-service",
+        "company/payment-service",
+        "company/notification-service"
+      ],
+      "members": [
+        "backend-lead@company.com",
+        "api-dev@company.com",
+        "microservices-dev@company.com"
+      ],
+      "policies": [
+        "high-severity-policy",
+        "container-policy",
+        "api-security-policy"
+      ],
+      "testing_types": [
+        "sast",
+        "sca",
+        "container",
+        "iac"
+      ]
+    },
+    {
+      "team_name": "DevOps Infrastructure Team",
+      "repositories": [
+        "company/kubernetes-configs",
+        "company/terraform-modules",
+        "company/ci-cd-pipelines",
+        "company/monitoring-stack"
+      ],
+      "members": [
+        "devops-lead@company.com",
+        "sre-engineer@company.com",
+        "cloud-architect@company.com"
+      ],
+      "policies": [
+        "high-severity-policy",
+        "iac-policy",
+        "container-policy",
+        "infrastructure-policy"
+      ],
+      "testing_types": [
+        "iac",
+        "container",
+        "sca"
+      ]
+    },
+    {
+      "team_name": "Data Engineering Team",
+      "repositories": [
+        "company/data-pipeline",
+        "company/ml-models",
+        "company/analytics-dashboard"
+      ],
+      "members": [
+        "data-lead@company.com",
+        "ml-engineer@company.com",
+        "analytics-dev@company.com"
+      ],
+      "policies": [
+        "high-severity-policy",
+        "data-security-policy",
+        "license-policy"
+      ],
+      "testing_types": [
+        "sast",
+        "sca",
+        "container"
+      ]
+    },
+    {
+      "team_name": "Security Team",
+      "repositories": [
+        "company/security-tools",
+        "company/compliance-checks",
+        "company/vulnerability-scanner"
+      ],
+      "members": [
+        "security-lead@company.com",
+        "security-engineer@company.com",
+        "compliance-officer@company.com"
+      ],
+      "policies": [
+        "critical-severity-policy",
+        "security-policy",
+        "compliance-policy"
+      ],
+      "testing_types": [
+        "sast",
+        "sca",
+        "iac",
+        "container"
+      ]
+    }
+  ]
+}
